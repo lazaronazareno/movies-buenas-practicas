@@ -1,0 +1,32 @@
+:root {
+  width: 100%;
+  height: 100vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0.25rem;
+}
+
+main {
+  width: 100%;
+}
+
+.movies {
+  display: grid;
+  width: 100%;
+  list-style: none;
+  padding: 1rem;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
